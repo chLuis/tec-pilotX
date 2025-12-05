@@ -1,10 +1,15 @@
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes, useLocation } from "react-router-dom"
 import Home from "./pages/Home"
 import PostPage from "./pages/Post"
 import { ToastProvider } from "./providers/toast-provider"
+import { useEffect } from "react"
 
 function App() {
+  const { pathname } = useLocation()
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
 
   return (
     <ToastProvider initialData={null}>
