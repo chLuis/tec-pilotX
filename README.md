@@ -36,7 +36,7 @@ Aplicación desarrollada en **React** para visualizar posteos y permitir la inte
 
 ---
 
-## ▶️ Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 
 ```bash
 # Clonar el repositorio
